@@ -1,10 +1,15 @@
 import React from 'react';
 import { HomePage } from '@pages/HomePage';
+import { Navbar } from '@components/Navbar';
 
 export function App() {
   return (
-    <main className='container-lg mt-5'>
-      <HomePage />
-    </main>
+    <>
+      <Navbar />
+
+      <main className='container-lg mt-5'>
+        <HomePage />
+      </main>
+    </>
   );
 }
