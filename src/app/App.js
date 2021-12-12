@@ -1,11 +1,11 @@
 import React from 'react';
-import { Home } from './Home';
+import { HomePage } from '@components/HomePage';
 
 export function App() {
   return (
     <>
       <h2 className='text-info'>Data export excel</h2>
-      <Home />
+      <HomePage />
     </>
   );
 }

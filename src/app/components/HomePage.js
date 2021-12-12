@@ -1,8 +1,8 @@
 import React from 'react'
-import { data } from "./data";
+import { data } from "../data";
 import ReactHTMLTableToExcel from "react-html-table-to-excel";
 
-export const Home = () => {
+export const HomePage = () => {
 
     return (
         <section className='container'>
